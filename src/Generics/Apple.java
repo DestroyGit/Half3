@@ -1,4 +1,7 @@
 package Generics;
 
-public class Apple extends Fruit {
+class Apple extends Fruit {
+    Apple() {
+        super(1f);
+    }
 }
